@@ -1,5 +1,6 @@
-def draw_tree(height=5):
-    if(height==0):
+def draw_tree():
+    height=5
+    if(height<=0):
         print("Trees not found")
         return
 
